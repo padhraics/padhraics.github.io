@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Person Name</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
 	<body>
 		<nav>
     		<ul>
@@ -15,10 +15,7 @@
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Welcome to the page of A. N. Other</h1>
-				<p>This is a test page with <em>stuff in italic font</em> and links to <a href="/about"> text about me...</a></p>
-    		</div><!-- /.blurb -->
+    		   {{ content }}
 		</div><!-- /.container -->
 		<footer>
     		<ul>
